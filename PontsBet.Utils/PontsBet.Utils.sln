@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PontsBet.Utils", "PontsBet.Utils.csproj", "{9A142D79-9D35-4929-823F-3CE93164B027}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "..\UnitTest\UnitTest.csproj", "{2F887A90-55C7-424D-B43E-C17DA8A95204}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A142D79-9D35-4929-823F-3CE93164B027}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A142D79-9D35-4929-823F-3CE93164B027}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A142D79-9D35-4929-823F-3CE93164B027}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A142D79-9D35-4929-823F-3CE93164B027}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F887A90-55C7-424D-B43E-C17DA8A95204}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F887A90-55C7-424D-B43E-C17DA8A95204}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F887A90-55C7-424D-B43E-C17DA8A95204}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F887A90-55C7-424D-B43E-C17DA8A95204}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {69200304-37CB-48B8-A4A1-464A6379335E}
+	EndGlobalSection
+EndGlobal
