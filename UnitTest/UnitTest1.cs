@@ -61,14 +61,16 @@ namespace UnitTest
         [TestMethod]
         public void TestMethodLongArray()
         {
-            string[] items = { "apple" };
+            List<string> items=new List<string>() ;
             for (int i = 0; i < 10000; i++)
             {
-                items = items.Concat(new[] { "apple"+i }).ToArray();
+                items.Add(  "apple"+i );
             }
             string separator = "-";
-            string result = StringFormatter.ToCommaSepatatedList(items, separator);
+            string expected = string.Join(separator, items);
+            string result = StringFormatter.ToCommaSepatatedList(items.ToArray(), separator);
             Assert.IsTrue(result.Length>0);
+            Assert.AreEqual(expected, result);
         }
     }
 }
