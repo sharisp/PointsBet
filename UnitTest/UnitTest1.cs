@@ -61,7 +61,7 @@ namespace UnitTest
         [TestMethod]
         public void TestMethodLongArray()
         {
-            List<string> items=new List<string>() ;
+            List<string> items=new List<string>();
             for (int i = 0; i < 10000; i++)
             {
                 items.Add(  "apple"+i );

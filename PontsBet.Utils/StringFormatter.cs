@@ -17,6 +17,8 @@ namespace PontsBet.Utils
             }
             //string.Join is a convenient method to join strings with a separator
             //return string.Join(separator, items);
+
+            //Calculate the total length of the resulting string,to avoid multiple allocations of stringbuilder
             int totalLength = 0;
             foreach (var item in items)
             {
